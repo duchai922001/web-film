@@ -1,0 +1,28 @@
+.wrapper-film {
+  gap: 12px;
+}
+
+.parent-card {
+  display: flex;
+  gap: 12px;
+}
+.card-container {
+  position: relative;
+  box-shadow: 1px 0px 1px 0px #ccc;
+  border-radius: 4px;
+}
+
+.card-tag {
+  position: absolute;
+
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  padding: 4px;
+}
+
+.card-image {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+}
